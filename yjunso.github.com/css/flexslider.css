@@ -1,0 +1,27 @@
+/* FlexSlider Default Theme*/
+
+.flex-viewport { max-height: 2000px; -webkit-transition: all 1s ease; -moz-transition: all 1s ease; -o-transition: all 1s ease; transition: all 1s ease; }
+.loading .flex-viewport { max-height: 780px; }
+.slides { zoom: 1; overflow:hidden }
+.slides > li {display: none; -webkit-backface-visibility: hidden;}
+
+/* Pause/Play */
+.flex-pauseplay a { display: block; opacity: 0.8; z-index: 10; overflow: hidden; cursor: pointer; color: #000; }
+.flex-pauseplay a:before  { font-family: "flexslider-icon"; font-size: 20px; display: inline-block; /*content: '\f004';*/ }
+.flex-pauseplay a:hover  { opacity: 1; }
+.flex-pauseplay a.flex-play:before { /*content: '\f003';*/ }
+
+/* Control Nav */
+.flex-control-nav { width:100%; text-align:center}
+.flex-control-nav li {display: inline-block; zoom: 1; *display: inline;}
+.flex-control-paging li a {display: block;cursor: pointer; text-indent: -9999px; font-size:0; line-height:0;}
+
+/*direction Nav*/
+
+/**/
+.slider{ position:relative;width:2000px; height:380px; }
+.slider .flex-control-paging{position:absolute; bottom:-23px; right:0; z-index:10003;background:url(../main1_pg_bg.html) center top; height:16px; padding:7px 0}
+.slider .flex-control-paging li{ margin:0 3px}
+.slider .flex-control-paging li a {background:url(../main1_pg.html) no-repeat; width:9px; height:9px;text-indent:9999px}
+.slider .flex-control-paging li a:hover {background:url(../main1_pg.html) no-repeat; width:9px;}
+.slider .flex-control-paging li a.flex-active { background:url(../main1_pg_on.html) no-repeat; width:40px}

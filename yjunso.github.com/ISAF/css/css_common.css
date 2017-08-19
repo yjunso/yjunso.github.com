@@ -1,0 +1,275 @@
+/* Login Css */ 
+
+#login_main {
+	background:url(../img/bg/login_bg2.jpg) repeat-x; 
+	background-position:0px center;
+	width:100%;
+	height:100%;
+}
+
+#login_main .loginTb{background:url(../img/bg/login_bg.jpg) no-repeat; background-position:0px 1px;width:553px;height:423px;}
+#login_main .loginTb_outer{background:url(../img/bg/login_bg_outer.jpg) no-repeat; background-position:0px 1px;width:553px;height:423px;}
+
+.log_input{
+	width:240px;
+	padding:4px 5px 2px 5px;_height /**/:20px;
+}
+
+#wrap {width:100%;}
+
+#top_menu{
+	width:100%;
+	height:113px;
+	background:url(../img/bg/admin_topbg2.jpg);
+}
+
+#top_menu .top_logo{
+
+	width:220px;
+	height:85px;
+}
+
+#top_menu .top_sub{
+
+	height:85px;
+}
+
+#top_menu .top_sub .top_login{
+	position:relative;
+	height:46px;
+	color:#C1CDE7;
+}
+
+#top_menu .top_sub .top_login div{
+	top:15px;
+	width:500px;
+	margin-left:16px;
+	position:absolute;
+}
+
+#top_menu .top_sub .top_menuP{
+	position:relative;
+	height:40px;
+	padding:0 0 0 10px;
+}
+
+#top_menu .top_sub .top_menuP .top_menu_box{
+ position:absolute;
+ height:40px;
+ top:14px;
+}
+
+#top_menu .top_sub .top_menuP .top_menu_box div{
+ float:left;
+ color:#FFFFFF;
+ position:relative;
+ text-align:center;
+}
+
+#top_menu .top_sub .top_menuP .section{
+	width:3px;
+	color:#5E74A7; 
+	font-size:11px;
+	text-align:center;
+}
+
+#top_menu .top_sub .top_menuP .txt{
+	padding:0 8px 0 8px;
+}
+
+#top_menu .top_sub .top_menuP .txt a{
+	color:#FFFFFF;
+	font-size:12px;
+	font-weight:bold;
+}
+
+#top_menu .top_sub .top_menuP .txt a:hover{
+	color:#FFFFFF; 
+	text-decoration:underline;
+}
+
+#top_menu .top_sub .top_menuP .txt a.Msel{
+	color:#FFFFFF;
+	font-size:12px;
+	font-weight:bold;
+	text-decoration:underline;
+}
+
+#top_menu .top_sub .top_menuP .txt a.Msel:hover{
+	color:#FFFFFF; 
+	text-decoration:underline;
+}
+
+#footer {
+	position:relative;
+	border:5px solid #545454;
+	background:url(../img/bg/admin_topbg.jpg);
+	margin: 0px; /* negative value of footer height */
+	height: 30px;
+}
+
+#footer .FooterPG{
+	top:8px;
+	position:absolute;
+}
+
+#top_menu .top_title_date{
+	height:28px;
+	color:#C1CDE7; font-size:12px;
+}
+
+#top_menu .top_title{
+	height:28px;
+	position:relative;
+}
+
+#top_menu .title_div{
+	top:6px;
+	left:30px;
+	position:absolute;
+	color:#C1CDE7; font-size:12px;
+}
+
+#left_menu{
+	width:220px;
+	vertical-align:top;
+	border-top:5px solid #545454;
+	background-color:#ECECEC;
+}
+
+#content_detail{
+	vertical-align:top;
+	border-top:5px solid #545454;
+	border-left:5px solid #545454;
+	border-right:5px solid #545454;
+	border-bottom:3px solid #545454;
+}
+
+.LeftPG_sub{width:220px;}
+
+.LeftM_bg{width:200px;}
+
+.LeftM_subbg{width:180px;}
+
+.LeftM_bg{
+	background-color:#3E3E3E;
+}
+.left_bg{
+	background: url('../img/title/admin_left_title.gif') no-repeat;
+}
+
+.left_box_top{
+	height:6px;
+	background: url('../img/bg/lm01_bg_top.gif') no-repeat;
+}
+
+.left_box_middle{
+	background: url('../img/bg/bg_submenu22.gif') no-repeat 0 6px; 
+	font-size:14px; 
+	padding-left:21px;
+}
+
+.left_box_bottom{
+	height:6px;
+	background: url('../img/bg/lm01_bg_bott.html') no-repeat;
+}
+
+.left_sub_box_top{
+	height:5px;
+	background: url('../img/bg/lm02_bg_top.gif') no-repeat;
+}
+
+.left_sub_box_middle{
+	background:url('../img/bg/lm02_bg_body.gif') no-repeat ; 
+	color:#FFFFFF; 
+	padding-left:10px;
+}
+
+.left_sub_box_bottom{
+	height:5px;
+	background: url('../img/bg/lm02_bg_bott.gif') no-repeat;
+}
+
+.sortsT{
+	cursor:pointer;
+}
+
+#loadingIndicator{position:absolute;top:0;left:0;width:100%;height:100%;z-index:100;display:none;}
+
+/*
+.normal_h{height:622px;}
+*/
+
+
+
+/* 버튼 스타일*/
+
+/* 기본버튼*/
+.adm_btnN{
+/*
+	background: #000 url(../img/btn_bg/overlay.png) repeat-x; 
+*/
+	background: #FFFFFF;
+	padding: 1px 0 0 0;
+	display: inline-block; 
+	color: #000000; 
+	text-decoration: none; 
+	/*
+	-moz-border-radius: 5px; 
+	-webkit-border-radius: 5px; 
+	-moz-box-shadow: 0 1px 3px rgba(0,0,0,0.5); 
+	-webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.5); 
+	text-shadow: 0 -1px 1px rgba(0,0,0,0.25); 
+	*/
+	border: 1px solid #000000; 
+	position: relative; 
+	cursor: pointer; 
+}
+
+.adm_btnN:hover{background: #ECECEC; }
+
+.adm_btnB{
+	background: #000000;
+	padding: 1px 0 0 0;
+	display: inline-block; 
+	color: #FFFFFF; 
+	text-decoration: none; 
+	border: 1px solid #000000; 
+	position: relative; 
+	cursor: pointer; 
+}
+
+/* 수정버튼*/
+.adm_btnM{
+	background: #F9D4D4;
+	padding: 2px 0 2px 0;
+	display: inline-block; 
+	color: #8F5656; 
+	text-decoration: none; 
+	border: 1px solid #C59191; 
+	position: relative; 
+	cursor: pointer; 
+	line-height:11px;
+	font-size:11px;
+}
+
+/* 삭제버튼*/
+.adm_btnD{
+	background: #F5F5F5;
+	padding: 2px 0 2px 0;
+	display: inline-block; 
+	color: #000000; 
+	text-decoration: none; 
+	/*
+	-moz-border-radius: 5px; 
+	-webkit-border-radius: 5px; 
+	-moz-box-shadow: 0 1px 3px rgba(0,0,0,0.5); 
+	-webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.5); 
+	text-shadow: 0 -1px 1px rgba(0,0,0,0.25); 
+	*/
+	border: 1px solid #000000; 
+	position: relative; 
+	cursor: pointer; 
+	line-height:11px;
+	font-size:11px;
+}

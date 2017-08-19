@@ -1,0 +1,55 @@
+runtime: php55
+api_version: 1
+
+handlers:
+# Serve images as static resources.
+- url: /images
+  static_dir: images
+
+- url: /css
+  static_dir: css
+  
+- url: /js
+  static_dir: js
+  
+- url: /font
+  static_dir: font
+  
+- url: /ISAF
+  static_dir: ISAF
+
+- url: /dev
+  static_dir: dev
+  
+- url: /guide
+  static_dir: guide
+  
+- url: /member
+  static_dir: member
+  
+- url: /online
+  static_dir: online
+
+- url: /smarteditor
+  static_dir: smarteditor
+  
+- url: /dev
+  static_dir: dev
+  
+- url: /sub1
+  static_dir: sub1
+
+- url: /sub2
+  static_dir: sub2
+
+- url: /sub3
+  static_dir: sub3
+
+- url: /sub4
+  static_dir: sub4
+
+- url: /bbs_sun
+  static_dir: bbs_sun
+
+- url: /.*
+  script: /main/main.php

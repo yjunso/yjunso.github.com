@@ -1,0 +1,173 @@
+/* 서브메뉴 전체감싸는 레이어*/
+	div#admin_sub_menu_wrapper{position:relative; top:0; height:0; z-index:1500; display:none;}
+
+	/* 서브메뉴 현재위치 아이콘*/
+	div#admin_sub_menu_wrapper div#sub_menu_arrow{position:absolute; top:73; left:-100; z-index:2;}
+
+	/* 서브메뉴 + 배경이미지 */
+	div#admin_sub_menu_wrapper div#admin_sub_menu_bg{position:absolute; top:80; z-index:1; border:0px solid; width:100%;}
+	div#admin_sub_menu_wrapper div#admin_sub_menu_bg table td.tr1{height:2px; background-color:#4B65B0;}
+
+	div#admin_sub_menu_wrapper div#admin_sub_menu_bg table td.tr2{color:black; font:8pt 돋움; padding:6 0 12 0; background-color:black; filter:alpha(opacity=60); opacity:0.85; -moz-opacity:0.85;}
+
+	div#admin_sub_menu_wrapper div#admin_sub_menu_bg table td.tr3{height:3px; background-color:#4B65B0;}/*FC7100*/
+
+	/* 서브메뉴 기본크기 더미레이어 */
+	div#dummy_layer{width:1010; border:0px solid white;}
+	div#dummy_layer_cnt{width:788; border:0px solid white;}
+
+	/* 서브메뉴 레이어 */
+	div#admin_sub_menu_wrapper div#admin_sub_menu{position:relative; top:0; left:220; margin:8 0; width:1000px; height:; border:0px solid;}
+
+	/* CSS 적용 서브메뉴 */
+
+	/* 서브메뉴 내용 */
+	div#admin_sub_menu div#submenu1 div.submenu{float:left; width:170; margin-right:20; margin-bottom:15; border:0px solid;}
+
+	/* 서브메뉴 제목*/
+	div#admin_sub_menu div#submenu1 div.submenu div.menu_subtitle{width:100%; height:21; background:url('New_img/image/bg_title_submenu2a.html') no-repeat; _background:none; _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='New_img/image/bg_title_submenu2a.html', sizingMethod='crop');
+	color:white; font-family:돋움; font-size:8pt; font-weight:bold; letter-spacing:-1px; margin-bottom:10; padding:3 15 0 10;}
+
+	/* 서브메뉴항목 */
+	div#admin_sub_menu div#submenu1 div.submenu table td ul{color:#EEEEEE; font-family:돋움; font-size:10pt; margin:-0.5em 0 0 -1.5em; line-height:19px; list-style:circle; letter-spacing:-2px; list-style-image:url('');}
+	div#admin_sub_menu div#submenu1 div.submenu table td ul li.strong{font-weight:100;} /* 굵은 표시 */
+	div#admin_sub_menu div#submenu1 div.submenu table td ul li.strong a{color:#FCC;} /* 굵은 표시 */
+	div#admin_sub_menu div#submenu1 div.submenu table td ul li a{color:#EEE; text-decoration:none;}
+	div#admin_sub_menu div#submenu1 div.submenu table td ul li a:hover{color:white; text-decoration:underline;}
+
+	/* 서브메뉴 내용 */
+	div#admin_sub_menu div#submenu2 div.submenu{float:left; width:170; margin-right:20; margin-bottom:15; border:0px solid;}
+
+	/* 서브메뉴 제목*/
+	div#admin_sub_menu div#submenu2 div.submenu div.menu_subtitle{width:100%; height:21; background:url('New_img/image/bg_title_submenu2a.html') no-repeat; _background:none; _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='New_img/image/bg_title_submenu2a.html', sizingMethod='crop');
+	color:white; font-family:돋움; font-size:8pt; font-weight:bold; letter-spacing:-1px; margin-bottom:10; padding:3 15 0 10;}
+
+	/* 서브메뉴항목 */
+	div#admin_sub_menu div#submenu2 div.submenu table td ul{color:#EEE; font-family:돋움; font-size:10pt; margin:-0.5em 0 0 -1.5em; line-height:19px; list-style:circle; letter-spacing:-2px; list-style-image:url('');}
+	div#admin_sub_menu div#submenu2 div.submenu table td ul li.strong{font-weight:100;} /* 굵은 표시 */
+	div#admin_sub_menu div#submenu2 div.submenu table td ul li.strong a{color:#FCC;} /* 굵은 표시 */
+	div#admin_sub_menu div#submenu2 div.submenu table td ul li a{color:#EEE; text-decoration:none;}
+	div#admin_sub_menu div#submenu2 div.submenu table td ul li a:hover{color:white; text-decoration:underline;}
+
+	/* 서브메뉴 내용 */
+	div#admin_sub_menu div#submenu3 div.submenu{float:left; width:170; margin-right:20; margin-bottom:15; border:0px solid;}
+
+	/* 서브메뉴 제목*/
+	div#admin_sub_menu div#submenu3 div.submenu div.menu_subtitle{width:100%; height:21; background:url('New_img/image/bg_title_submenu2a.html') no-repeat; _background:none; _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='New_img/image/bg_title_submenu2a.html', sizingMethod='crop');
+	color:white; font-family:돋움; font-size:8pt; font-weight:bold; letter-spacing:-1px; margin-bottom:10; padding:3 15 0 10;}
+
+	/* 서브메뉴항목 */
+	div#admin_sub_menu div#submenu3 div.submenu table td ul{color:#EEE; font-family:돋움; font-size:10pt; margin:-0.5em 0 0 -1.5em; line-height:19px; list-style:circle; letter-spacing:-2px; list-style-image:url('');}
+	div#admin_sub_menu div#submenu3 div.submenu table td ul li.strong{font-weight:100;} /* 굵은 표시 */
+	div#admin_sub_menu div#submenu3 div.submenu table td ul li.strong a{color:#FCC;} /* 굵은 표시 */
+	div#admin_sub_menu div#submenu3 div.submenu table td ul li a{color:#EEE; text-decoration:none;}
+	div#admin_sub_menu div#submenu3 div.submenu table td ul li a:hover{color:white; text-decoration:underline;}
+
+	/* 서브메뉴 내용 */
+	div#admin_sub_menu div#submenu4 div.submenu{float:left; width:170; margin-right:20; margin-bottom:15; border:0px solid;}
+
+	/* 서브메뉴 제목*/
+	div#admin_sub_menu div#submenu4 div.submenu div.menu_subtitle{width:100%; height:21; background:url('New_img/image/bg_title_submenu2a.html') no-repeat; _background:none; _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='New_img/image/bg_title_submenu2a.html', sizingMethod='crop');
+	color:white; font-family:돋움; font-size:8pt; font-weight:bold; letter-spacing:-1px; margin-bottom:10; padding:3 15 0 10;}
+
+	/* 서브메뉴항목 */
+	div#admin_sub_menu div#submenu4 div.submenu table td ul{color:#EEE; font-family:돋움; font-size:10pt; margin:-0.5em 0 0 -1.5em; line-height:19px; list-style:circle; letter-spacing:-2px; list-style-image:url('');}
+	div#admin_sub_menu div#submenu4 div.submenu table td ul li.strong{font-weight:100;} /* 굵은 표시 */
+	div#admin_sub_menu div#submenu4 div.submenu table td ul li.strong a{color:#FCC;} /* 굵은 표시 */
+	div#admin_sub_menu div#submenu4 div.submenu table td ul li a{color:#EEE; text-decoration:none;}
+	div#admin_sub_menu div#submenu4 div.submenu table td ul li a:hover{color:white; text-decoration:underline;}
+
+	/* 서브메뉴 내용 */
+	div#admin_sub_menu div#submenu5 div.submenu{float:left; width:170; margin-right:20; margin-bottom:15; border:0px solid;}
+
+	/* 서브메뉴 제목*/
+	div#admin_sub_menu div#submenu5 div.submenu div.menu_subtitle{width:100%; height:21; background:url('New_img/image/bg_title_submenu2a.html') no-repeat; _background:none; _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='New_img/image/bg_title_submenu2a.html', sizingMethod='crop');
+	color:white; font-family:돋움; font-size:8pt; font-weight:bold; letter-spacing:-1px; margin-bottom:10; padding:3 15 0 10;}
+
+	/* 서브메뉴항목 */
+	div#admin_sub_menu div#submenu5 div.submenu table td ul{color:#EEE; font-family:돋움; font-size:10pt; margin:-0.5em 0 0 -1.5em; line-height:19px; list-style:circle; letter-spacing:-2px; list-style-image:url('');}
+	div#admin_sub_menu div#submenu5 div.submenu table td ul li.strong{font-weight:100;} /* 굵은 표시 */
+	div#admin_sub_menu div#submenu5 div.submenu table td ul li.strong a{color:#FCC;} /* 굵은 표시 */
+	div#admin_sub_menu div#submenu5 div.submenu table td ul li a{color:#EEE; text-decoration:none;}
+	div#admin_sub_menu div#submenu5 div.submenu table td ul li a:hover{color:white; text-decoration:underline;}
+
+	/* 서브메뉴 내용 */
+	div#admin_sub_menu div#submenu6 div.submenu{float:left; width:170; margin-right:20; margin-bottom:15; border:0px solid;}
+
+	/* 서브메뉴 제목*/
+	div#admin_sub_menu div#submenu6 div.submenu div.menu_subtitle{width:100%; height:21; background:url('New_img/image/bg_title_submenu2a.html') no-repeat; _background:none; _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='New_img/image/bg_title_submenu2a.html', sizingMethod='crop');
+	color:white; font-family:돋움; font-size:8pt; font-weight:bold; letter-spacing:-1px; margin-bottom:10; padding:3 15 0 10;}
+
+	/* 서브메뉴항목 */
+	div#admin_sub_menu div#submenu6 div.submenu table td ul{color:#EEE; font-family:돋움; font-size:10pt; margin:-0.5em 0 0 -1.5em; line-height:19px; list-style:circle; letter-spacing:-2px; list-style-image:url('');}
+	div#admin_sub_menu div#submenu6 div.submenu table td ul li.strong{font-weight:100;} /* 굵은 표시 */
+	div#admin_sub_menu div#submenu6 div.submenu table td ul li.strong a{color:#FCC;} /* 굵은 표시 */
+	div#admin_sub_menu div#submenu6 div.submenu table td ul li a{color:#EEE; text-decoration:none;}
+	div#admin_sub_menu div#submenu6 div.submenu table td ul li a:hover{color:white; text-decoration:underline;}
+
+	/* 서브메뉴 내용 */
+	div#admin_sub_menu div#submenu7 div.submenu{float:left; width:170; margin-right:20; margin-bottom:15; border:0px solid;}
+
+	/* 서브메뉴 제목*/
+	div#admin_sub_menu div#submenu7 div.submenu div.menu_subtitle{width:100%; height:21; background:url('New_img/image/bg_title_submenu2a.html') no-repeat; _background:none; _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='New_img/image/bg_title_submenu2a.html', sizingMethod='crop');
+	color:white; font-family:돋움; font-size:8pt; font-weight:bold; letter-spacing:-1px; margin-bottom:10; padding:3 15 0 10;}
+
+	/* 서브메뉴항목 */
+	div#admin_sub_menu div#submenu7 div.submenu table td ul{color:#EEE; font-family:돋움; font-size:10pt; margin:-0.5em 0 0 -1.5em; line-height:19px; list-style:circle; letter-spacing:-2px; list-style-image:url('');}
+	div#admin_sub_menu div#submenu7 div.submenu table td ul li.strong{font-weight:100;} /* 굵은 표시 */
+	div#admin_sub_menu div#submenu7 div.submenu table td ul li.strong a{color:#FCC;} /* 굵은 표시 */
+	div#admin_sub_menu div#submenu7 div.submenu table td ul li a{color:#EEE; text-decoration:none;}
+	div#admin_sub_menu div#submenu7 div.submenu table td ul li a:hover{color:white; text-decoration:underline;}
+
+	/* 서브메뉴 내용 */
+	div#admin_sub_menu div#submenu8 div.submenu{float:left; width:170; margin-right:20; margin-bottom:15; border:0px solid;}
+
+	/* 서브메뉴 제목*/
+	div#admin_sub_menu div#submenu8 div.submenu div.menu_subtitle{width:100%; height:21; background:url('New_img/image/bg_title_submenu2a.html') no-repeat; _background:none; _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='New_img/image/bg_title_submenu2a.html', sizingMethod='crop');
+	color:white; font-family:돋움; font-size:8pt; font-weight:bold; letter-spacing:-1px; margin-bottom:10; padding:3 15 0 10;}
+
+	/* 서브메뉴항목 */
+	div#admin_sub_menu div#submenu8 div.submenu table td ul{color:#EEE; font-family:돋움; font-size:10pt; margin:-0.5em 0 0 -1.5em; line-height:19px; list-style:circle; letter-spacing:-2px; list-style-image:url('');}
+	div#admin_sub_menu div#submenu8 div.submenu table td ul li.strong{font-weight:100;} /* 굵은 표시 */
+	div#admin_sub_menu div#submenu8 div.submenu table td ul li.strong a{color:#FCC;} /* 굵은 표시 */
+	div#admin_sub_menu div#submenu8 div.submenu table td ul li a{color:#EEE; text-decoration:none;}
+	div#admin_sub_menu div#submenu8 div.submenu table td ul li a:hover{color:white; text-decoration:underline;}
+
+	/* 서브메뉴 내용 */
+	div#admin_sub_menu div#submenu9 div.submenu{float:left; width:170px; margin-right:20; margin-bottom:15; border:0px solid;}
+
+	/* 서브메뉴 제목*/
+	div#admin_sub_menu div#submenu9 div.submenu div.menu_subtitle{width:100%; height:21; background:url('New_img/image/bg_title_submenu2a.html') no-repeat; _background:none; _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='New_img/image/bg_title_submenu2a.html', sizingMethod='crop');
+	color:white; font-family:돋움; font-size:8pt; font-weight:bold; letter-spacing:-1px; margin-bottom:10; padding:3 15 0 10;}
+
+	/* 서브메뉴항목 */
+	div#admin_sub_menu div#submenu9 div.submenu table td ul{color:#EEE; font-family:돋움; font-size:10pt; margin:0 0 0 27px ; line-height:21px; list-style:circle; letter-spacing:-2px; list-style-image:url('');}
+	div#admin_sub_menu div#submenu9 div.submenu table td ul li.strong{font-weight:100;} /* 굵은 표시 */
+	div#admin_sub_menu div#submenu9 div.submenu table td ul li.strong a{color:#FCC;} /* 굵은 표시 */
+	div#admin_sub_menu div#submenu9 div.submenu table td ul li a{color:#EEE; text-decoration:none;}
+	div#admin_sub_menu div#submenu9 div.submenu table td ul li a:hover{color:white; text-decoration:underline;}
+
+	/* 서브메뉴 내용 */
+	div#admin_sub_menu div#submenu10 div.submenu{float:left; width:170px; margin-right:20; margin-bottom:15; border:0px solid;}
+
+	/* 서브메뉴 제목*/
+	div#admin_sub_menu div#submenu10 div.submenu div.menu_subtitle{width:100%; height:21; background:url('New_img/image/bg_title_submenu2a.html') no-repeat; _background:none; _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='New_img/image/bg_title_submenu2a.html', sizingMethod='crop');
+	color:white; font-family:돋움; font-size:8pt; font-weight:bold; letter-spacing:-1px; margin-bottom:10; padding:3 15 0 10;}
+
+	/* 서브메뉴항목 */
+	div#admin_sub_menu div#submenu10 div.submenu table td ul{color:#EEE; font-family:돋움; font-size:10pt; margin:0 0 0 27px ; line-height:21px; list-style:circle; letter-spacing:-2px; list-style-image:url('');}
+	div#admin_sub_menu div#submenu10 div.submenu table td ul li.strong{font-weight:100;} /* 굵은 표시 */
+	div#admin_sub_menu div#submenu10 div.submenu table td ul li.strong a{color:#FCC;} /* 굵은 표시 */
+	div#admin_sub_menu div#submenu10 div.submenu table td ul li a{color:#EEE; text-decoration:none;}
+	div#admin_sub_menu div#submenu10 div.submenu table td ul li a:hover{color:white; text-decoration:underline;}
+
+	<!--[if IE 6]>
+	
+	div#admin_sub_menu_wrapper div#admin_sub_menu_bg table td.tr1{height:6; background:url('New_img/image/bg_submenu_pan01a.html'); _background:none; _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='New_img/image/bg_submenu_pan01a.html', sizingMethod='crop');}
+	div#admin_sub_menu_wrapper div#admin_sub_menu_bg table td.tr3{height:8; background:url('New_img/image/bg_submenu_pan01b.html') repeat-x 0 bottom; _background:none; _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='New_img/image/bg_submenu_pan01b.html', sizingMethod='crop');}
+	div#admin_sub_menu div#submenu1 div.submenu table td ul{font-family:돋움; font-size:8pt; margin:0 0 0 2.4em; line-height:19px; list-style:circle; letter-spacing:-1px; list-style-image:url('');}				div#admin_sub_menu div#submenu2 div.submenu table td ul{font-family:돋움; font-size:8pt; margin:0 0 0 2.4em; line-height:19px; list-style:circle; letter-spacing:-1px; list-style-image:url('');}				div#admin_sub_menu div#submenu3 div.submenu table td ul{font-family:돋움; font-size:8pt; margin:0 0 0 2.4em; line-height:19px; list-style:circle; letter-spacing:-1px; list-style-image:url('');}				div#admin_sub_menu div#submenu4 div.submenu table td ul{font-family:돋움; font-size:8pt; margin:0 0 0 2.4em; line-height:19px; list-style:circle; letter-spacing:-1px; list-style-image:url('');}				div#admin_sub_menu div#submenu5 div.submenu table td ul{font-family:돋움; font-size:8pt; margin:0 0 0 2.4em; line-height:19px; list-style:circle; letter-spacing:-1px; list-style-image:url('');}				div#admin_sub_menu div#submenu6 div.submenu table td ul{font-family:돋움; font-size:8pt; margin:0 0 0 2.4em; line-height:19px; list-style:circle; letter-spacing:-1px; list-style-image:url('');}				div#admin_sub_menu div#submenu7 div.submenu table td ul{font-family:돋움; font-size:8pt; margin:0 0 0 2.4em; line-height:19px; list-style:circle; letter-spacing:-1px; list-style-image:url('');}				div#admin_sub_menu div#submenu8 div.submenu table td ul{font-family:돋움; font-size:8pt; margin:0 0 0 2.4em; line-height:19px; list-style:circle; letter-spacing:-1px; list-style-image:url('');}
+	<![endif]-->
+
+	<!--[if IE]>	
+	div#admin_sub_menu div#submenu1 div.submenu table td ul{font-family:돋움; font-size:8pt; margin:0 0 0 2.4em; line-height:19px; list-style:circle; letter-spacing:-1px; list-style-image:url('');}				div#admin_sub_menu div#submenu2 div.submenu table td ul{font-family:돋움; font-size:8pt; margin:0 0 0 2.4em; line-height:19px; list-style:circle; letter-spacing:-1px; list-style-image:url('');}				div#admin_sub_menu div#submenu3 div.submenu table td ul{font-family:돋움; font-size:8pt; margin:0 0 0 2.4em; line-height:19px; list-style:circle; letter-spacing:-1px; list-style-image:url('');}				div#admin_sub_menu div#submenu4 div.submenu table td ul{font-family:돋움; font-size:8pt; margin:0 0 0 2.4em; line-height:19px; list-style:circle; letter-spacing:-1px; list-style-image:url('');}				div#admin_sub_menu div#submenu5 div.submenu table td ul{font-family:돋움; font-size:8pt; margin:0 0 0 2.4em; line-height:19px; list-style:circle; letter-spacing:-1px; list-style-image:url('');}				div#admin_sub_menu div#submenu6 div.submenu table td ul{font-family:돋움; font-size:8pt; margin:0 0 0 2.4em; line-height:19px; list-style:circle; letter-spacing:-1px; list-style-image:url('');}				div#admin_sub_menu div#submenu7 div.submenu table td ul{font-family:돋움; font-size:8pt; margin:0 0 0 2.4em; line-height:19px; list-style:circle; letter-spacing:-1px; list-style-image:url('');}				div#admin_sub_menu div#submenu8 div.submenu table td ul{font-family:돋움; font-size:8pt; margin:0 0 0 2.4em; line-height:19px; list-style:circle; letter-spacing:-1px; list-style-image:url('');}
+	<![endif]-->
