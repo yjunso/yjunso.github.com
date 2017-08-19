@@ -1,0 +1,811 @@
+
+ <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ko" lang="ko">
+
+<!-- Mirrored from www.banman.net/sub2/2_2.php by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 18 Aug 2017 05:38:12 GMT -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2, user-scalable=yes" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="성심공인부동산">
+<meta property="og:site_name" content="성심공인부동산">
+<meta property="og:image" content="../images/inc/banman.jpg" />
+<meta name="keyword" content="정자동부동산, 정자역부동산, 분당부동산, 성심공인, 성심공인부동산, 부동산수수료, 중개수수료">
+<meta name="description" content="'성심공인 부동산'은 공인중개사의 안전하고 전문적인 중개서비스를 반값에 제공합니다"/>
+<meta property="og:description" content="'성심공인 부동산'은 공인중개사의 안전하고 전문적인 중개서비스를 반값에 제공합니다">
+<title>성심공인부동산 : 부동산 구하기 </title>
+<script type="text/javascript" src="../js/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="../js/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="../js/inc.js"></script>
+<script type="text/javascript" src="../js/jquery-ui.min.js"></script>
+<script type="text/javascript" src="../js/jquery.flexslider.js"></script>
+<script type="text/javascript" src="../js/jquery.fullPage.js"></script>
+<script type="text/javascript" src="../js/jquery.slimscroll.js"></script>
+<script src="../ISAF/Libs/js/frmCheck.js" type="text/javascript"></script>
+<link href="../css/inc.css" rel="stylesheet" type="text/css" />
+<link href="../css/style_phone.css" rel="stylesheet" type="text/css" media="only screen and (max-width:1024px)" />
+<link href="../css/style_pc.css" rel="stylesheet" type="text/css" media="only screen and (min-width:1025px)" />
+<link href="../css/board.css" rel="stylesheet" type="text/css" />
+<link href="../css/flexslider.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="../css/font.css" />
+<link rel="stylesheet" href="../ISAF/Libs/js/jquery-ui/css/smoothness/jquery-ui-1.10.3.custom.css" />
+<!--[if lt IE 9]>
+<link type="text/css" href="../css/style_pc.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="../css/font_ie.css" />
+<![endif]-->
+<link rel="shortcut icon" href="../images/inc/favicon.ico" />
+<script src="../../dmaps.daum.net/map_js_init/postcode.v2.js"></script>
+
+<!--네이버 애널리틱스-->
+<script type="text/javascript" src="../../wcs.naver.net/wcslog.js"></script>
+<script type="text/javascript">
+if(!wcs_add) var wcs_add = {};
+wcs_add["wa"] = "25bdd638e85ae4";
+wcs_do();
+</script>
+
+<script type="text/javascript">
+//<![CDATA[
+$(function(){
+	$("#header .gnb_area .gnb > li.m_1").mouseenter(function(){
+		$("#header .gnb_area .gnb .dp2").slideUp();
+		if ($(this).children(".dp2").css("display") == "none") {
+			$("#header .gnb_area .gnb .dp2").slideUp();
+			$(this).children(".dp2").slideDown();
+			$("#header .gnb_area .gnb .dp1").removeClass("on");
+			$(this).children(".dp1").addClass("on");
+			$("#header .gnb_area .gnb .m_2 .dp1").addClass("on");
+		}
+	});
+	$("#header .gnb_area .gnb > li.m_1").mouseleave(function(){
+		$(this).children(".dp2").slideUp();
+		$(this).children(".dp1").removeClass("on");
+		$("#header .gnb_area .gnb .m_2 .dp1").addClass("on");
+	});
+
+		$("#header .gnb_area .gnb .m_1 .dp1").addClass("on");
+		$("#contents .nav_area .gnb .m_2").css("display","block");
+	$("#contents .nav_area .gnb .sm_2").addClass("on");
+
+	//bookmark
+	$(document).on('click', '#bookmark', function(e){
+		e.preventDefault();
+		var bUrl = location.href;
+		var bTitle = "성심공인부동산에 오신 것을 환영합니다.";
+		try {
+			if (window.sidebar) {
+				window.sidebar.addPanel(bTitle, bUrl, "");
+			} else if (window.external || document.all) {
+				window.external.AddFavorite(bUrl, bTitle);
+			} else if (window.opera) {
+				$("a#bookmark").attr("rel","sidebar");
+			}
+		} catch (err) {
+			alert("죄송합니다. 현재 브라우저는 스크립트로 즐겨찾기 추가 기능을 지원하지 않습니다.\n즐겨찾기에 추가하시려면,\n Ctrl + D 키를 눌러주십시오.");
+		}
+	});
+})
+//]]>
+</script>
+<iframe name='doquery' width='100%' height='200' align='center' style='display:none;'></iframe>
+</head><script language="javascript">
+<!--
+function kakaoOnline(){
+	var n = $("#quick_name").val();
+	var h = $("#quick_hp").val();
+	var c = $("#quick_content").val();
+	if (!n.trim()){
+		alert("신청자명을 입력해주세요.");
+		$("#quick_name").focus();
+		return;
+	}
+	if (!h.trim()){
+		alert("연락처를 입력해주세요.");
+		$("#quick_hp").focus();
+		return;
+	}
+	if (!c.trim()){
+		alert("내용을 입력해주세요.");
+		$("#quick_content").focus();
+		return;
+	}
+
+	var paramq = $("#qTFrm").serialize();
+	var urlq = "../dev/ajax_executeq.html";
+	$.post(urlq, paramq, function(result) {
+		if(result=="ok"){
+			alert("전송되었습니다. \n담당자 확인 후 빠르게 연락드리겠습니다.");
+			$("#qTFrm")[0].reset();
+			$(".kt").hide();
+		}else{
+			alert("등록에 실패했습니다. \n잠시 후 다시 시도해주세요.");
+			$("#qTFrm")[0].reset();
+			$(".kt").hide();
+		}
+	});
+}
+-->
+</script>
+<body class="sub">
+<div class="l-wrapper box0">
+<div class="l-main" id="divMain">
+<!--header-->
+<div id="header">
+	<div class="top_area">
+		<div class="box1">
+			<ul class="left_menu">
+				<li class="st1"><a href="../guide/sitemap.html">전체메뉴</a></li>
+				<li class="st2"><a href="../main/main.php">홈</a></li>
+				<li class="st3" id="bookmark"><a href="javascript:void();">즐겨찾기</a></li>
+			</ul>
+			<ul class="right_menu">
+								<li class="st1"><a href="../member/login.html">로그인</a></li>
+				<li class="st2"><a href="../member/join.html">회원가입</a></li>
+							</ul>
+		</div>
+	</div>
+	<div class="gnb_area">
+		<div class="box1">
+			<h1 class="logo"><a href="../main/main.php"><img src="../images/inc/h_logo.png" alt="성심공인부동산"></a></h1>
+			   			<ul class="gnb center">
+	<li class="m_1">
+	<a href="../sub1/goods_find.html" class="dp1">부동산 구하기<span class="icon"></span></a>
+	<ul class="dp2">
+		<li class="sm_goods_find"><a href="../sub1/goods_find.html">지도로 찾기<span class="icon"></span></a></li>
+		<li class="sm_1"><a href="../sub1/1_1.html">분양정보<span class="icon"></span></a></li>
+		<li class="sm_2"><a href="2_2.html">요청하기<span class="icon"></span></a></li>
+	</ul>
+	</li>
+	<li class="m_2">
+	<a href="2_1.html" class="dp1">부동산 내놓기<span class="icon"></span></a>
+	<ul class="dp2">
+		<li class="sm_2"><a href="2_2.html">부동산 구하기<span class="icon"></span></a></li>
+		<li class="sm_1"><a href="2_1.html">부동산 내놓기<span class="icon"></span></a></li>
+	</ul>
+	</li>
+	<li data-menuanchor="4thPage" class="m_3">
+	<a href="../main/main.php#4thPage" class="dp1">서비스소개<span class="icon"></span></a>
+	<ul class="dp2">
+		<li class="sm_1"><a href="../sub3/3_1.html">서비스소개<span class="icon"></span></a></li>
+		<!--<li class="sm_2"><a href="../sub3/3_2.php">부동산 구하는 방법<span class="icon"></span></a></li>
+            <li class="sm_3"><a href="../sub3/3_3.php">부동산 내놓는 방법<span class="icon"></span></a></li>-->
+		<li class="sm_4"><a href="../sub3/3_4.html">수수료 알아보기<span class="icon"></span></a></li>
+	</ul>
+	</li>
+	<!--    <li class="m_4">
+        <a href="../main/main.php#8thPage" class="dp1">도움말<span class="icon"></span></a>
+        <ul class="dp2">
+            <li class="sm_1"><a href="../main/main.php#8thPage">서비스 이용 질문<span class="icon"></span></a></li>
+            <li class="sm_2"><a href="../main/main.php#8thPage">부동산 구하기 질문<span class="icon"></span></a></li>
+            <li class="sm_3"><a href="../main/main.php#8thPage">부동산 내놓기 질문<span class="icon"></span></a></li>
+        </ul>
+    </li>-->
+	<li data-menuanchor="8thPage" class="m_4">
+	<a href="../main/main.php#8thPage" class="dp1">도움말<span class="icon"></span></a>
+	<ul class="dp2">
+		<li class="sm_1"><a href="../main/main.php#8thPage">서비스 이용 질문<span class="icon"></span></a></li>
+		<li class="sm_2"><a href="../main/main.php#8thPage">부동산 구하기 질문<span class="icon"></span></a></li>
+		<li class="sm_3"><a href="../main/main.php#8thPage">부동산 내놓기 질문<span class="icon"></span></a></li>
+	</ul>
+	</li>
+	<li class="m_member">
+	<a href="../member/login.html" class="dp1">로그인<span class="icon"></span></a>
+	<ul class="dp2">
+		<li class="sm_login"><a href="../member/login.html">로그인<span class="icon"></span></a></li>
+		<li class="sm_join"><a href="../member/join.html">회원가입<span class="icon"></span></a></li>
+		<!--<li class="sm_id"><a href="../member/id.php">아이디 찾기<span class="icon"></span></a></li>
+            <li class="sm_pw"><a href="../member/pw.php">비밀번호 찾기<span class="icon"></span></a></li>-->
+	</ul>
+	</li>
+	 
+	<li class="m_guide">
+	<a href="../guide/agree.html" class="dp1">홈페이지 이용안내<span class="icon"></span></a>
+	<ul class="dp2">
+		<li class="sm_sitemap"><a href="../guide/sitemap.html">사이트맵<span class="icon"></span></a></li>
+		<li class="sm_agree"><a href="../guide/agree.html">이용약관<span class="icon"></span></a></li>
+		<li class="sm_privacy"><a href="../guide/privacy.html">개인정보처리방침<span class="icon"></span></a></li>
+		<!--<li class="sm_email"><a href="../guide/email.php">이메일무단수집거부<span class="icon"></span></a></li>-->
+	</ul>
+	</li>
+</ul>
+            			            <a href="#nav" class="js-toggle-nav nav_btn open pc_hide"></a>
+			<ul class="sns_list">
+				<li class="st1">
+                    <a href="javascript:void(0);"><img src="../images/inc/icon_katalk.png" alt="카카오톡" /></a>
+                    <div class="pop_sub kt">
+                        <span class="arrow"></span>
+                        <div class="inner">
+                            <div class="k_banner">
+                                <p class="t1">kakao <span>talk</span></p>
+                                <p class="t2">카톡아이디1 : <span>banman</span></p>
+                                <p class="t2">카톡아이디2 : <span>banman2</span></p>
+                                <p class="t3">고객분들께 친절한 상담을 약속드립니다.</p>
+                            </div>
+							<form name="qTFrm" id="qTFrm">
+                            <p class="inp_mg"><input type="text" name="quick_name" id="quick_name" class="input_st inp_w6" placeholder="신청자명" /></p>
+                            <p class="inp_mg"><input type="text" name="quick_hp" id="quick_hp" class="input_st inp_w6" placeholder="(예시) 01012345678" /></p>
+                            <p class="inp_mg"><textarea name="quick_content" id="quick_content" class="input_st textarea_w2 " placeholder="내용"></textarea></p>
+                            <p class="sp_apply"><span class="bg"></span><input type="button" class="input_st online" value="전송하기" onClick="kakaoOnline()"/></p>
+							</form>
+                        </div>
+                    </div>
+                </li>
+				<li class="st2"><a href="http://blog.naver.com/banmanneyo" target="_blank"><img src="../images/inc/icon_blog.png" alt="블로그" /></a></li>
+				<li class="st4">
+                	 <a class="phone_tel" href="tel:031-719-5085"><img src="../images/inc/icon_tel.png" alt="전화" /></a>
+					<a class="pc_tel" href="javascript:void(0);"><img src="../images/inc/icon_tel.png" alt="전화" /></a>
+                    <div class="pop_sub tel">
+                        <span class="arrow"></span>
+                        <div class="inner">
+							<p class="tel1">Tel. <span>031-718-4500</span></p>
+							<p class="tel2">H.P. <span>010-8613-6273</span></p>
+							<p class="tel3"> </p>
+                        </div>
+                    </div>
+                </li>
+				<li class="st3" data-menuanchor="5thPage"><a href="../main/main.php#5thPage"><img src="../images/inc/icon_loca.png" alt="오시는길" /></a></li>
+			</ul>
+		</div>
+		<script type="text/javascript">
+            $(function(){
+                $(".sns_list > li > a").click(function(){
+                    if($(this).next(".pop_sub").css("display") == "none"){
+						$(".pop_sub").hide();
+                        $(this).next(".pop_sub").show();
+                    }else{
+                        $(this).next(".pop_sub").hide();
+                    }
+                });
+            });
+        </script>
+		<p class="cl"></p>
+	</div>
+	
+	</div>
+<!--header end-->
+<!--contents-->
+<div id="contents">
+	        <div class="cate_area mgt">
+                <div class="box1">
+                                        <ul>
+                        <li class="home">홈</li>
+                        <li>부동산 내놓기</li>
+                        <li class="this">부동산 구하기</li>
+                    </ul>
+                    <h2 class="title">부동산 구하기</h2>
+                                    </div>
+            </div>
+            <div class="sub_con box1">
+                <div class="con_area">
+    <script language="javascript">
+function goSubmitProc(f) {
+	// 폼 검증 함수 실행
+	if(!checkForm(f)){
+		return false;
+	}
+
+	var n =0;
+	$(".seltype").each(function(i, elm) {
+		if ($(elm).prop("checked") == true){
+			n++;
+		}
+	});
+
+	if (n<1){
+		alert("거래 종류를 선택해 주세요.");
+		return false;
+	}
+
+	var c = confirm("등록하시겠습니까?");
+	if (!c){
+		return false;
+	}
+}
+</script>
+<script>
+function post_pop() {
+	new daum.Postcode({
+		oncomplete: function(data) {
+			// 팝업에서 검색결과 항목을 클릭했을때 실행할 코드를 작성하는 부분.
+			// 우편번호와 주소 정보를 해당 필드에 넣고, 커서를 상세주소 필드로 이동한다.
+			//var z = data.postcode1+"-"+data.postcode2;
+			var z = data.zonecode;
+
+			// 도로명 주소의 노출 규칙에 따라 주소를 조합한다.
+			// 내려오는 변수가 값이 없는 경우엔 공백('')값을 가지므로, 이를 참고하여 분기 한다.
+			var fullRoadAddr = data.roadAddress; // 도로명 주소 변수
+			var extraRoadAddr = ''; // 도로명 조합형 주소 변수
+
+			// 법정동명이 있을 경우 추가한다. (법정리는 제외)
+			// 법정동의 경우 마지막 문자가 "동/로/가"로 끝난다.
+			if(data.bname !== '' && /[동|로|가]$/g.test(data.bname)){
+				extraRoadAddr += data.bname;
+			}
+			// 건물명이 있고, 공동주택일 경우 추가한다.
+			//if(data.buildingName !== '' && data.apartment === 'Y'){
+			if(data.buildingName !== ''){
+			   extraRoadAddr += (extraRoadAddr !== '' ? ', ' + data.buildingName : data.buildingName);
+			   $("#bn_building").val(data.buildingName);
+			}
+			// 도로명, 지번 조합형 주소가 있을 경우, 괄호까지 추가한 최종 문자열을 만든다.
+			if(extraRoadAddr !== ''){
+				extraRoadAddr = ' (' + extraRoadAddr + ')';
+			}
+			// 도로명, 지번 주소의 유무에 따라 해당 조합형 주소를 추가한다.
+			if(fullRoadAddr !== ''){
+				fullRoadAddr += extraRoadAddr;
+			}
+
+			if (data.bname1){
+				var dong = data.bname1;
+			}else{
+				var dong = data.bname;
+			}
+
+			//alert(data.sido);
+			//alert(data.sigungu);
+
+			$("#m_address").val(fullRoadAddr);
+			$("#m_address_j").val(data.jibunAddress);
+
+			$("#bn_sido").val(data.sido);
+			$("#bn_gugun").val(data.sigungu);
+			$("#bn_dong").val(dong);
+
+			//전체 주소에서 연결 번지 및 ()로 묶여 있는 부가정보를 제거하고자 할 경우,
+			//아래와 같은 정규식을 사용해도 된다. 정규식은 개발자의 목적에 맞게 수정해서 사용 가능하다.
+			//var addr = data.address.replace(/(\s|^)\(.+\)$|\S+~\S+/g, '');
+			//document.getElementById('addr').value = addr;
+		}
+	}).open();
+}
+
+function ChageSido(gb){
+	var sido = $("#bn_sido").val();
+	var gugun = $("#bn_gugun").val();
+
+	var g = '<option value="">시/도/구 선택</option>';
+	var d = '<option value="">읍/면/동 선택</option>';
+	$.post("../dev/sidoappajax.html", { "vmode" : gb, "sidov" : sido, "gugunv" : gugun}, function(msg){
+		if (msg){
+			if (gb == "1"){
+				$('option', "#bn_gugun").remove();
+				$('option', "#bn_dong").remove();
+
+				$("#bn_gugun").append(msg);
+				$("#bn_dong").append(d);
+			}else{
+				$('option', "#bn_dong").remove();
+
+				$("#bn_dong").append(msg);
+			}
+		}
+	});
+}
+function vp_check(v){
+	var c = $("#rent"+v).prop("checked");
+	if(c){
+		$("#sale_price"+v).removeClass("dn");
+	}else{
+		$("#sale_price"+v).addClass("dn");
+	}
+}
+</script>
+<!-- 1 -> 3.305785 -->
+<form name="appForm" id="appForm" action="http://www.banman.net/ISAF/Libs/php/doquery.php" method="post" autocomplete="off" onSubmit="return goSubmitProc(this)" target="doquery">
+<input type="hidden" name="mode" value="bn_buy_app">
+<div class="doc">
+	<dl class="fix_detail">
+	<dt>
+	<p class="t1">문의 전화번호</p>
+	<p class="t2">고객분들의 상담에 항상<br />친절한 답변으로 응대해드리겠습니다</p>
+	</dt>
+	<dd>
+	<div class="time">
+		<span class="tel">031-718-4500</span> <span class="slash">/</span> <span class="tel">010-8613-6273</span> <span class="slash">/</span> <span class="tel">010-2559-5086</span><span class="noti">월~토 AM 10:00 ~ PM 07:00</span>
+	</div>
+	</dd>
+	</dl>
+	<p class="info"><strong>'기본정보'</strong>만 입력하셔도 <strong>'성심공인 담당자'</strong>가 확인 후 고객님께 연락드립니다.</p>
+
+	<p class="sub_tt1">기본정보(필수입력)</p>
+	<div class="form_area">
+		<table width="100%" border="0" cellspacing="0" cellpadding="0" class="board_st write">
+			<col class="w_write_th"/>
+			<col class="w_auto" />
+			<tr>
+				<th><span class="icon"></span>신청자</th>
+				<td><input type="text" class="input_st inp_w1" placeholder="성명입력" name="user_name" msg="신청자명을"/></td>
+			</tr>
+			<tr>
+				<th><span class="icon"></span>연락처</th>
+				<td>
+					<input type="text" class="input_st inp_w3" name="hp[]" msg="연락처를" maxlength="4"/>
+					-
+					<input type="text" class="input_st inp_w3" name="hp[]" msg="연락처를" maxlength="4"/>
+					-
+					<input type="text" class="input_st inp_w3" name="hp[]" msg="연락처를" maxlength="4"/>
+				</td>
+			</tr>
+			<tr>
+				<th><span class="icon"></span>거래 종류</th>
+				<td>
+					<div class="form_sec1">
+						<input type="checkbox" class="input_st seltype" id="rent1" name="sel_type[]" value="S" /><label for="rent1">매매</label>
+					</div>
+					<div class="form_sec1">
+						<input type="checkbox" class="input_st seltype" id="rent2" name="sel_type[]" value="Y" /><label for="rent2">전세</label>
+					</div>
+					<div class="form_sec1">
+						<input type="checkbox" class="input_st seltype" id="rent3" name="sel_type[]" value="M" /><label for="rent3">월세</label>
+					</div>
+					<div class="form_sec1">
+						<p>복수 선택이 가능합니다.</p>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<th><span class="icon"></span>매물정보</th>
+				<td><textarea class="input_st textarea_w2" placeholder="원하시는 지역, 단지, 면적 등 매물정보 및 기타의견을 입력하여 주세요." name="sel_info" msg="매물정보를"></textarea></td>
+			</tr>
+		</table>
+	</div>
+	<p class="sub_tt1 mgt">상세정보(선택입력)</p>
+	<div class="form_area">
+		<table width="100%" border="0" cellspacing="0" cellpadding="0" class="board_st write">
+			<col class="w_write_th"/>
+			<col class="w_auto" />
+			<tr>
+				<th><span class="icon"></span>건물종류</th>
+				<td>
+										<div class="form_sec1">
+						<input type="checkbox" class="input_st" id="build0" name="bn_cate[]" value="A" /><label for="build0">아파트</label>
+											</div>
+										<div class="form_sec1">
+						<input type="checkbox" class="input_st" id="build1" name="bn_cate[]" value="B" /><label for="build1">오피스텔</label>
+											</div>
+										<div class="form_sec1">
+						<input type="checkbox" class="input_st" id="build2" name="bn_cate[]" value="C" /><label for="build2">단독/다가구</label>
+											</div>
+										<div class="form_sec1">
+						<input type="checkbox" class="input_st" id="build3" name="bn_cate[]" value="D" /><label for="build3">연립/다세대</label>
+											</div>
+										<div class="form_sec1">
+						<input type="checkbox" class="input_st" id="build4" name="bn_cate[]" value="E" /><label for="build4">원룸</label>
+											</div>
+										<div class="form_sec1">
+						<input type="checkbox" class="input_st" id="build5" name="bn_cate[]" value="F" /><label for="build5">상가</label>
+											</div>
+										<div class="form_sec1">
+						<input type="checkbox" class="input_st" id="build6" name="bn_cate[]" value="G" /><label for="build6">사무실</label>
+											</div>
+										<div class="form_sec1">
+						<input type="checkbox" class="input_st" id="build7" name="bn_cate[]" value="H" /><label for="build7">토지</label>
+											</div>
+										<div class="form_sec1">
+						<input type="checkbox" class="input_st" id="build8" name="bn_cate[]" value="I" /><label for="build8">빌딩</label>
+											</div>
+										<div class="form_sec1">
+						<input type="checkbox" class="input_st" id="build9" name="bn_cate[]" value="Z" onclick="show_hide_info('build9', 'bncate_etc')"/><label for="build9">기타</label>
+												<input type="text" class="input_st mg_l10 inp_w1 dn" id="bncate_etc" name="bn_cate_txt" placeholder="직접입력해주세요." />
+											</div>
+										<div class="form_sec1">
+						<p>복수 선택이 가능합니다.</p>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<th><span class="icon"></span>희망지역</th>
+				<td>
+					<div class="form_sec2">
+                    <select class="input_st inp_w1" name="bn_sido" id="bn_sido" onchange="ChageSido(1)">
+                    <option value="">시/도 선택</option>
+                                        <option value="강원">강원</option>
+                                        <option value="경기">경기</option>
+                                        <option value="경남">경남</option>
+                                        <option value="경북">경북</option>
+                                        <option value="광주">광주</option>
+                                        <option value="대구">대구</option>
+                                        <option value="대전">대전</option>
+                                        <option value="부산">부산</option>
+                                        <option value="서울">서울</option>
+                                        <option value="세종특별자치시">세종특별자치시</option>
+                                        <option value="울산">울산</option>
+                                        <option value="인천">인천</option>
+                                        <option value="전남">전남</option>
+                                        <option value="전북">전북</option>
+                                        <option value="제주특별자치도">제주특별자치도</option>
+                                        <option value="충남">충남</option>
+                                        <option value="충북">충북</option>
+                                        </select>
+                    </div>
+					<div class="form_sec2">
+                    <select class="input_st inp_w1 " name="bn_gugun" id="bn_gugun" onchange="ChageSido(2)">
+                    <option value="">시/도/구 선택</option>
+                    </select>
+                    </div>
+					<div class="form_sec2">
+                    <select class="input_st inp_w1 " name="bn_dong" id="bn_dong">
+                    <option value="">읍/면/동 선택</option>
+                    </select>
+                    </div>
+                </div>
+				</td>
+			</tr>
+<!--
+			<tr>
+				<th><span class="icon"></span>실제주소</th>
+				<td>
+					<input type="text" class="input_st inp_w2" />
+					<input type="button" value="주소검색" class="input_st c6" />
+				</td>
+			</tr>
+ -->
+<!--
+			<tr>
+				<th><span class="icon"></span>매물명</th>
+				<td>
+					<select class="input_st inp_w1 ">
+					<option value="">매물명 선택</option>
+					<option value="매물명">매물명</option>
+					<option value="매물명">매물명</option>
+					</select>
+				</td>
+			</tr>
+ -->
+			<tr>
+				<th><span class="icon"></span>단지명</th>
+				<td>
+					<p>상위 건물종류에 따라 선택적으로 입력하십시오.</p>
+                    <div class="form_sec2">
+                    <input type="text" class="input_st inp_w4" name="bn_building" id="bn_building" placeholder="입력예시) 00리치밸리" />
+                    </div>
+                    <div class="form_sec2">
+                    <input type="text" class="input_st inp_w1" name="bn_building_dong" id="bn_building_dong" placeholder="입력예시) 1001동" />
+                    </div>
+                    <div class="form_sec2">
+                    <input type="text" class="input_st inp_w1" name="bn_building_floor" id="bn_building_floor" placeholder="입력예시) 1층" />
+                    </div>
+                    <div class="form_sec2">
+                    <input type="text" class="input_st inp_w1" name="bn_building_ho" id="bn_building_ho" placeholder="입력예시) 1002호" />
+                    호
+                    </div>
+				</td>
+			</tr>
+			<tr>
+				<th><span class="icon"></span>면적</th>
+				<td>
+					<div class="form_sec2">
+                    <input type="text" class="input_st inp_w1" name="bn_area" placeholder="면적" id="bn_area" onkeyup="UnitConversionA()" />&nbsp;㎡&nbsp;&nbsp;&nbsp;
+                    </div>
+					<div class="form_sec2">
+                    <input type="text" class="input_st inp_w1" name="bn_areak" placeholder="평수" id="bn_areak" onkeyup="UnitConversionB()" />&nbsp;평
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<th><span class="icon"></span>입주가능일</th>
+				<td>
+					<div class="form_sec1">
+						<input type="radio" class="input_st" name="bn_deal" id="deal1" value="D" onclick="hide_info('bn_deal_txtsp')"/><label for="deal1">즉시가능</label>
+					</div>
+					<div class="form_sec1">
+						<input type="radio" class="input_st" name="bn_deal" id="deal2" value="H" onclick="hide_info('bn_deal_txtsp')"/><label for="deal2">협의필요</label>
+					</div>
+					<div class="form_sec1">
+						<input type="radio" class="input_st" name="bn_deal" id="deal3" value="S" onclick="show_info_date('bn_deal_txt')"/><label for="deal3">날짜선택</label>
+						<span id="bn_deal_txtsp" class="dn">
+						<input type="text" class="input_st mg_l10 inp_w2 cal" name="bn_deal_txt" id="bn_deal_txt" placeholder="날짜입력" /> 이후
+						</span>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<th><span class="icon"></span>기타의견</th>
+				<td><textarea class="input_st textarea_w2" name="dn_comment" placeholder="실거주, 투자 등 거래목적 및 기타 요구사항을 입력하여 주세요"></textarea></td>
+			</tr>
+		</table>
+	</div>
+	<div class="board_btn_wrap ac">
+		<input type="submit" value="등록하기" class="board_btn c1" />
+		<input type="button" value="취소하기" class="board_btn c2" onclick='history.back(-1); return false;' />
+	</div>
+	<script type="text/javascript">
+	img_resize2()
+	</script>
+</div>
+</form>
+		</div>
+        <!--con_area end-->
+        <p class="cl"></p>
+    </div>
+    <!--sub_con end-->
+
+</div>
+<!--contents end-->
+    
+<!--footer-->
+<div id="footer" class="nm">
+	<div class="box1">
+        <ul class="f_link">
+        	<li><a href="../guide/privacy.html">개인정보처리방침</a></li>
+        	<li><a href="../guide/agree.html">이용약관</a></li>
+        	<li class="admin"><a href="../ISAF/index.html" target="_blank">관리자</a></li>
+        </ul>    
+        <dl class="copy_info">
+        	<dt>상호명. 성심공인부동산</dt>
+        	<dd>대표. 이경노</dd>
+        	<dd>주소. 경기도 성남시 분당구 정자동 25-1  킨스타워 3층 311호</dd>
+        	<dd>개인정보관리책임자. 이경노</dd>
+        	<dd>Tel. 031-718-4500</dd>
+        	<dd>H.P. 010-8613-6273</dd>
+        	<dd>Fax. xxx-xxxx-xxxx</dd>
+        	<dd>Email. knlee2010@gmail.com</dd>
+        	<dd class="copy">COPYRIGHTS (C) 성심공인부동산. ALL RIGHTS RESERVED.</dd>
+        </dl>
+    </div>
+</div>
+<!--footer end-->
+
+</div>
+<!-- l-main end-->
+<div id="LeftNavigation" class="l-nav">
+	<div class="nav_top">
+        <p class="nav_logo"><img src="../images/inc/h_logo.png" /></p>
+        <a href="#" class="js-toggle-nav nav_close"></a>
+    </div>
+	<ul class="nav_tit">
+				<li><a href="../member/login.html"><p>로그인</p></a></li>
+		<li><a href="../member/join.html"><p>회원가입</p></a></li>
+		    </ul>
+    <ul class="gnb center">
+	<li class="m_1">
+	<a href="../sub1/goods_find.html" class="dp1">부동산 구하기<span class="icon"></span></a>
+	<ul class="dp2">
+		<li class="sm_goods_find"><a href="../sub1/goods_find.html">지도로 찾기<span class="icon"></span></a></li>
+		<li class="sm_1"><a href="../sub1/1_1.html">분양정보<span class="icon"></span></a></li>
+		<li class="sm_2"><a href="2_2.html">요청하기<span class="icon"></span></a></li>
+	</ul>
+	</li>
+	<li class="m_2">
+	<a href="2_1.html" class="dp1">부동산 내놓기<span class="icon"></span></a>
+	<ul class="dp2">
+		<li class="sm_2"><a href="2_2.html">부동산 구하기<span class="icon"></span></a></li>
+		<li class="sm_1"><a href="2_1.html">부동산 내놓기<span class="icon"></span></a></li>
+	</ul>
+	</li>
+	<li data-menuanchor="4thPage" class="m_3">
+	<a href="../main/main.php#4thPage" class="dp1">서비스소개<span class="icon"></span></a>
+	<ul class="dp2">
+		<li class="sm_1"><a href="../sub3/3_1.html">서비스소개<span class="icon"></span></a></li>
+		<!--<li class="sm_2"><a href="../sub3/3_2.php">부동산 구하는 방법<span class="icon"></span></a></li>
+            <li class="sm_3"><a href="../sub3/3_3.php">부동산 내놓는 방법<span class="icon"></span></a></li>-->
+		<li class="sm_4"><a href="../sub3/3_4.html">수수료 알아보기<span class="icon"></span></a></li>
+	</ul>
+	</li>
+	<!--    <li class="m_4">
+        <a href="../main/main.php#8thPage" class="dp1">도움말<span class="icon"></span></a>
+        <ul class="dp2">
+            <li class="sm_1"><a href="../main/main.php#8thPage">서비스 이용 질문<span class="icon"></span></a></li>
+            <li class="sm_2"><a href="../main/main.php#8thPage">부동산 구하기 질문<span class="icon"></span></a></li>
+            <li class="sm_3"><a href="../main/main.php#8thPage">부동산 내놓기 질문<span class="icon"></span></a></li>
+        </ul>
+    </li>-->
+	<li data-menuanchor="8thPage" class="m_4">
+	<a href="../main/main.php#8thPage" class="dp1">도움말<span class="icon"></span></a>
+	<ul class="dp2">
+		<li class="sm_1"><a href="../main/main.php#8thPage">서비스 이용 질문<span class="icon"></span></a></li>
+		<li class="sm_2"><a href="../main/main.php#8thPage">부동산 구하기 질문<span class="icon"></span></a></li>
+		<li class="sm_3"><a href="../main/main.php#8thPage">부동산 내놓기 질문<span class="icon"></span></a></li>
+	</ul>
+	</li>
+	<li class="m_member">
+	<a href="../member/login.html" class="dp1">로그인<span class="icon"></span></a>
+	<ul class="dp2">
+		<li class="sm_login"><a href="../member/login.html">로그인<span class="icon"></span></a></li>
+		<li class="sm_join"><a href="../member/join.html">회원가입<span class="icon"></span></a></li>
+		<!--<li class="sm_id"><a href="../member/id.php">아이디 찾기<span class="icon"></span></a></li>
+            <li class="sm_pw"><a href="../member/pw.php">비밀번호 찾기<span class="icon"></span></a></li>-->
+	</ul>
+	</li>
+	 
+	<li class="m_guide">
+	<a href="../guide/agree.html" class="dp1">홈페이지 이용안내<span class="icon"></span></a>
+	<ul class="dp2">
+		<li class="sm_sitemap"><a href="../guide/sitemap.html">사이트맵<span class="icon"></span></a></li>
+		<li class="sm_agree"><a href="../guide/agree.html">이용약관<span class="icon"></span></a></li>
+		<li class="sm_privacy"><a href="../guide/privacy.html">개인정보처리방침<span class="icon"></span></a></li>
+		<!--<li class="sm_email"><a href="../guide/email.php">이메일무단수집거부<span class="icon"></span></a></li>-->
+	</ul>
+	</li>
+</ul>
+    <ul class="sns_link">
+    	<li>
+        	<a href="../online/online.html">
+            	<p class="st1">온라인상담</p>
+            </a>
+        </li>
+    	<li>
+        	<a href="http://blog.naver.com/banmanneyo" target="_blank">
+            	<p class="st2">블로그</p>
+            </a>
+        </li>
+    </ul>
+</div>
+<script type="text/javascript">
+//<![CDATA[
+(function ( window, document, $, m, ui, undefined ) {
+'use strict';
+var documentElement = document.documentElement,
+	$win = $( window ),
+	$root = $( document ),
+	$html = $( documentElement ),
+	transitionEnd;
+$(function () {
+	$html.addClass( 'ready' );
+});
+if ( !window.ui ) {
+	window.ui = ui;
+}
+if ( ui.prefixed ) {
+	transitionEnd = ui.prefixed.transitionend;
+}
+// 네비게이션 사이드바
+function openNav() {
+	$html.addClass( 'l-nav-open' );
+}
+function closeNav() {
+	$( '.l-main' )
+	.one( transitionEnd, function () {
+		$html.removeClass( 'l-nav-closing' );
+	});
+	$html
+	.addClass( 'l-nav-closing' )
+	.removeClass( 'l-nav-open' );
+}
+function toggleNav() {
+	if ( $html.hasClass( 'l-nav-open' ) ) {
+		closeNav();
+	} else {
+		openNav();
+	}
+}
+$root
+// 네비게이션 사이드바 토글 버튼
+.on( 'click', '.js-toggle-nav', function ( e ) {
+	e.preventDefault();
+	toggleNav();
+})
+// 네비게이션 사이드바 열린 상태에서 메인 영역 터치 시 사이드바 닫기
+.on( 'click touchstart', '.l-nav-open .l-main', function ( e ) {
+	e.preventDefault();
+	closeNav();
+});
+ui.nav = {
+	open: openNav,
+	close: closeNav,
+	toggle: toggleNav
+};
+}( this, this.document, this.jQuery, this.Modernizr, this.ui || {} ));
+
+//
+$(".l-nav .gnb .dp1").not(".l-nav .gnb > li.m_3 > a, .l-nav .gnb > li.m_4 > a").attr("href","javascript:void()").click(function(){
+	if($(this).next(".dp2").css("display") == "none"){
+		$(".l-nav .gnb .dp2").slideUp(200)
+		$(this).next(".dp2").slideDown(200)
+		$(".l-nav .gnb .dp1").removeClass("on")
+		$(this).addClass("on")
+	}else{
+		$(".l-nav .gnb .dp1").removeClass("on")
+		$(this).next(".dp2").slideUp(200)
+	}
+})
+//]]>
+</script></div>
+<!-- l-wrapper end-->
+</body>
+
+<!-- Mirrored from www.banman.net/sub2/2_2.php by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 18 Aug 2017 05:38:12 GMT -->
+</html>
