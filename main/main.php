@@ -13,7 +13,6 @@ $register_num="886-06-00823";
  <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ko" lang="ko">
 
-<!-- Mirrored from www.banman.net/main/main.php by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 18 Aug 2017 05:30:51 GMT -->
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
@@ -152,8 +151,8 @@ function kakaoOnline(){
 				<li class="st3" id="bookmark"><a href="javascript:void();">즐겨찾기</a></li>
 			</ul>
 			<ul class="right_menu">
-								<li class="st1"><a href="../member/login.html">로그인</a></li>
-				<li class="st2"><a href="../member/join.html">회원가입</a></li>
+								<!--<li class="st1"><a href="../member/login.html">로그인</a></li>-->
+				<!--<li class="st2"><a href="../member/join.html">회원가입</a></li>-->
 							</ul>
 		</div>
 	</div>
@@ -204,8 +203,8 @@ function kakaoOnline(){
 	<li class="m_member">
 	<a href="../member/login.html" class="dp1">로그인<span class="icon"></span></a>
 	<ul class="dp2">
-		<li class="sm_login"><a href="../member/login.html">로그인<span class="icon"></span></a></li>
-		<li class="sm_join"><a href="../member/join.html">회원가입<span class="icon"></span></a></li>
+		<!--<li class="sm_login"><a href="../member/login.html">로그인<span class="icon"></span></a></li>-->
+		<!--<li class="sm_join"><a href="../member/join.html">회원가입<span class="icon"></span></a></li>-->
 		<!--<li class="sm_id"><a href="../member/id.php">아이디 찾기<span class="icon"></span></a></li>
             <li class="sm_pw"><a href="../member/pw.php">비밀번호 찾기<span class="icon"></span></a></li>-->
 	</ul>
@@ -1162,8 +1161,8 @@ function kakaoOnline(){
         <a href="#" class="js-toggle-nav nav_close"></a>
     </div>
 	<ul class="nav_tit">
-				<li><a href="../member/login.html"><p>로그인</p></a></li>
-		<li><a href="../member/join.html"><p>회원가입</p></a></li>
+				<!--<li><a href="../member/login.html"><p>로그인</p></a></li>-->
+		<!--<li><a href="../member/join.html"><p>회원가입</p></a></li>-->
 		    </ul>
     <ul class="gnb center">
 	<li class="m_1">
@@ -1209,8 +1208,8 @@ function kakaoOnline(){
 	<li class="m_member">
 	<a href="../member/login.html" class="dp1">로그인<span class="icon"></span></a>
 	<ul class="dp2">
-		<li class="sm_login"><a href="../member/login.html">로그인<span class="icon"></span></a></li>
-		<li class="sm_join"><a href="../member/join.html">회원가입<span class="icon"></span></a></li>
+		<!--<li class="sm_login"><a href="../member/login.html">로그인<span class="icon"></span></a></li>-->
+		<!--<li class="sm_join"><a href="../member/join.html">회원가입<span class="icon"></span></a></li>-->
 		<!--<li class="sm_id"><a href="../member/id.php">아이디 찾기<span class="icon"></span></a></li>
             <li class="sm_pw"><a href="../member/pw.php">비밀번호 찾기<span class="icon"></span></a></li>-->
 	</ul>
@@ -1233,7 +1232,7 @@ function kakaoOnline(){
             </a>
         </li>
     	<li>
-        	<a href="http://blog.naver.com/banmanneyo" target="_blank">
+        	<a href="  " target="_blank">
             	<p class="st2">블로그</p>
             </a>
         </li>
